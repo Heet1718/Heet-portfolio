@@ -1,6 +1,6 @@
 <div align="center">
 # 👋 Hi, I'm Heet Patel
-</div>
+
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=4F8EF7&center=true&vCenter=true&width=800&lines=AI+%26+Machine+Learning+Enthusiast;Full-Stack+Developer;Computer+Engineering+Student;Building+Innovative+Projects;Always+Learning+New+Technologies" />
