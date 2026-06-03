@@ -94,11 +94,6 @@ Currently:
 ### ⭐ If you like my work, consider giving a star!
 
 </div>
-```
-
-### Extra Setup
-
-Replace:
 
 * `https://www.linkedin.com/in/heet-patel-14805537b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app` with your LinkedIn profile URL.
 * `heetpatel1781@gmail.com` with your email.
