@@ -1,25 +1,30 @@
+# 👋 Hi, I'm Heet Patel
 
 <div align="center">
 
-# 👋 Hi, I'm Heet Patel
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=4F8EF7&center=true&vCenter=true&width=700&lines=AI+%26+Machine+Learning+Enthusiast;Full-Stack+Developer;Computer+Engineering+Student;Building+Innovative+Projects;Always+Learning+New+Technologies" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=4F8EF7&center=true&vCenter=true&width=800&lines=AI+%26+Machine+Learning+Enthusiast;Full-Stack+Developer;Computer+Engineering+Student;Building+Innovative+Projects;Always+Learning+New+Technologies" />
 
 ### 🚀 AI/ML Engineer • Full-Stack Developer • Problem Solver
 
-<p>
-  <a href="https://heet1718.vercel.app/">
-    <img src="https://img.shields.io/badge/🌐_Portfolio-Visit_Now-4F8EF7?style=for-the-badge">
-  </a>
-  <a href="mailto:your-email@example.com">
-    <img src="https://img.shields.io/badge/📧_Email-Contact_Me-red?style=for-the-badge">
-  </a>
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
-  </a>
+<p align="center">
+<a href="https://heet1718.vercel.app/" target="_blank">
+<img src="https://img.shields.io/badge/🌐_Portfolio-Visit_Now-4F8EF7?style=for-the-badge" />
+</a>
+
+<a href="mailto:heetpatel1781@gmail.com">
+<img src="https://img.shields.io/badge/📧_Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+<a href="https://www.linkedin.com/in/heet-patel-14805537b/" target="_blank">
+<img src="https://img.shields.io/badge/💼_LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<a href="https://github.com/heet1718" target="_blank">
+<img src="https://img.shields.io/badge/💻_GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=yugg04&label=Profile+Views&color=4F8EF7&style=for-the-badge" />
+<img src="https://komarev.com/ghpvc/?username=heet1718&label=Profile+Views&color=4F8EF7&style=for-the-badge"/>
 
 </div>
 
@@ -31,7 +36,7 @@
 Name: Heet Patel
 Location: Gujarat, India
 Education: B.Tech Computer Engineering
-Focus:
+Specialization:
   - Artificial Intelligence
   - Machine Learning
   - Full Stack Development
@@ -42,7 +47,11 @@ Currently:
   - Learning Advanced ML
   - Exploring Cloud Technologies
   - Contributing to Open Source
-````
+
+Goal:
+  - Become an AI Engineer
+  - Build impactful AI products
+```
 
 ---
 
@@ -50,10 +59,8 @@ Currently:
 
 <div align="center">
 
-### 🔗 Live Portfolio
-
-<a href="https://heet1718.vercel.app/">
-<img src="https://img.shields.io/badge/Visit_My_Portfolio-4F8EF7?style=for-the-badge&logo=vercel&logoColor=white"/>
+<a href="https://heet1718.vercel.app/" target="_blank">
+<img src="https://img.shields.io/badge/🚀_Visit_My_Portfolio-4F8EF7?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
 
 </div>
@@ -62,41 +69,58 @@ Currently:
 
 ## 🛠 Tech Stack
 
-### Languages
+### Programming Languages
 
-<p>
-<img src="https://skillicons.dev/icons?i=python,java,js,c,cpp,html,css" />
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python,java,c,cpp,javascript,html,css" />
 </p>
 
 ### Frameworks & Libraries
 
-<p>
-<img src="https://skillicons.dev/icons?i=react,nodejs,express,bootstrap" />
+<p align="center">
+<img src="https://skillicons.dev/icons?i=react,nodejs,express,bootstrap,tensorflow,pytorch" />
 </p>
 
-### AI / ML
+### Databases & Tools
 
-<p>
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch" />
-</p>
-
-### Tools & Platforms
-
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,mysql,mongodb,firebase,vercel" />
+<p align="center">
+<img src="https://skillicons.dev/icons?i=mysql,mongodb,firebase,git,github,vscode,vercel" />
 </p>
 
 ---
 
 
+
+
+
+## 🌟 Connect With Me
+
+<div align="center">
+
+<a href="https://heet1718.vercel.app/">
+<img src="https://img.shields.io/badge/Portfolio-4F8EF7?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+
+<a href="mailto:heetpatel1781@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/in/heet-patel-14805537b/">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://github.com/heet1718">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</div>
+
+---
+
 <div align="center">
 
 ### ⭐ If you like my work, consider giving a star!
 
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=7C3AED&center=true&width=500&lines=Thanks+for+visiting+my+profile!;Let's+build+something+amazing+together!;Happy+Coding!+🚀" />
+
 </div>
-
-* `https://www.linkedin.com/in/heet-patel-14805537b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app` with your LinkedIn profile URL.
-* `heetpatel1781@gmail.com` with your email.
-* `heet1718` with your GitHub username if different.
-
-
