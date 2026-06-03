@@ -1,5 +1,6 @@
+<div align="center">
 # 👋 Hi, I'm Heet Patel
-
+</div>
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=4F8EF7&center=true&vCenter=true&width=800&lines=AI+%26+Machine+Learning+Enthusiast;Full-Stack+Developer;Computer+Engineering+Student;Building+Innovative+Projects;Always+Learning+New+Technologies" />
@@ -121,6 +122,11 @@ Goal:
 
 ### ⭐ If you like my work, consider giving a star!
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=7C3AED&center=true&width=500&lines=Thanks+for+visiting+my+profile!;Let's+build+something+amazing+together!;Happy+Coding!+🚀" />
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=4F8EF7&center=true&vCenter=true&width=700&lines=Thanks+for+visiting+my+GitHub+Profile!;AI+%26+Machine+Learning+Enthusiast;Full+Stack+Developer;Always+Learning+New+Technologies;Let's+Build+Something+Amazing+Together!" />
+
+</div>
+
 
 </div>
