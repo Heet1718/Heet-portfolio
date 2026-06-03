@@ -1,5 +1,13 @@
 <div align="center">
-# 👋 Hi, I'm Heet Patel
+
+<h1 align="center">👋 Hi, I'm Heet Patel</h1>
+
+<h3 align="center">
+🚀 AI/ML Engineer • Full-Stack Developer • Computer Engineering Student
+</h3>
+
+</div>
+
 
 <div align="center">
 
