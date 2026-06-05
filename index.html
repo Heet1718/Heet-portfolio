@@ -110,7 +110,6 @@
     }
     .light .cursor { mix-blend-mode: normal; }
 
-    /* ── Spotlight ── */
     .spotlight {
       position: fixed;
       width: 600px; height: 600px;
@@ -337,7 +336,6 @@
     .pc-btns { display: flex; gap: 10px; }
     .pc-btns .btn { flex: 1; justify-content: center; font-size: .8rem; }
 
-    /* ── Sections ── */
     .section { padding: 90px 80px; border-top: 1px solid var(--border); position: relative; }
     .sec-label {
       font-family: var(--font-mono);
@@ -1361,7 +1359,7 @@
 
   function renderContact() {
     const contacts = [];
-    if (CONFIG.email)    contacts.push({ icon: '✉️', label: 'Email',    value: CONFIG.email,    fn: copyEmail, actionLabel: 'Copy' });
+    if (CONFIG.email)    contacts.push({ icon: '✉️', label: 'Email',    value: CONFIG.email,    fn: () => window.open('https://mail.google.com/mail/?view=cm&to=' + CONFIG.email, '_blank'), actionLabel: 'Open' });
     if (CONFIG.phone)    contacts.push({ icon: '📱', label: 'Phone',    value: CONFIG.phone,    fn: () => { navigator.clipboard.writeText(CONFIG.phone).catch(() => {}); toast('📋', 'Phone copied!'); }, actionLabel: 'Copy' });
     if (CONFIG.linkedin) contacts.push({ icon: '💼', label: 'LinkedIn', value: CONFIG.linkedin.replace('https://linkedin.com/in/', ''), fn: () => window.open(CONFIG.linkedin, '_blank'), actionLabel: 'Open' });
 
@@ -1401,7 +1399,7 @@
 
  
 
-  function sendMessage() {
+  async function sendMessage() {
     const name    = document.getElementById('fName').value.trim();
     const email   = document.getElementById('fEmail').value.trim();
     const subject = document.getElementById('fSubject').value.trim();
@@ -1410,10 +1408,38 @@
     if (!name || !email || !message) { toast('⚠️', 'Please fill in Name, Email & Message'); return; }
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { toast('⚠️', 'Please enter a valid email'); return; }
 
-    const body = encodeURIComponent(`Name: ${name}\n\n${message}`);
-    const sub  = encodeURIComponent(subject || 'Portfolio Inquiry');
-    window.location.href = `mailto:${CONFIG.email}?subject=${sub}&body=${body}`;
-    toast('📤', 'Opening your mail client…');
+    const sendBtn = document.querySelector('.form-send');
+    sendBtn.disabled = true;
+    sendBtn.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="animation:spin .8s linear infinite"><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="4.93" y1="4.93" x2="7.76" y2="7.76"/><line x1="16.24" y1="16.24" x2="19.07" y2="19.07"/><line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/><line x1="4.93" y1="19.07" x2="7.76" y2="16.24"/><line x1="16.24" y1="7.76" x2="19.07" y2="4.93"/></svg> Sending…`;
+
+    try {
+      const res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({
+          access_key: CONFIG.web3formsKey,
+          name:    name,
+          email:   email,
+          subject: subject || 'Portfolio Inquiry — ' + name,
+          message: message
+        })
+      });
+      const data = await res.json();
+      if (data.success) {
+        toast('✅', 'Message sent! I\'ll get back to you soon.');
+        document.getElementById('fName').value    = '';
+        document.getElementById('fEmail').value   = '';
+        document.getElementById('fSubject').value = '';
+        document.getElementById('fMessage').value = '';
+      } else {
+        toast('❌', 'Something went wrong. Try emailing directly.');
+      }
+    } catch (err) {
+      toast('❌', 'Network error. Please try emailing directly.');
+    } finally {
+      sendBtn.disabled = false;
+      sendBtn.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg> Send Message`;
+    }
   }
 
 
@@ -1514,7 +1540,7 @@
 
   initTheme();
   renderAll();
-  loadGitHubData(); // async — fetches live data from GitHub API
+  loadGitHubData(); 
 </script>
 </body>
 </html>
