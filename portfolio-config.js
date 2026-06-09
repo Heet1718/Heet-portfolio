@@ -88,7 +88,7 @@ const CONFIG = {
       ],
       architecture: "HTML/CSS/JS Frontend → Python Backend → MySQL Database (phpMyAdmin)",
       challenges:   "Designing a normalized relational schema for pharmacy inventory with expiry date tracking and secure parameterized SQL queries.",
-      github:   "https://github.com/Heet1718",
+      github:   "https://github.com/Heet1718/Digital-pharmacy",
       demo:     ""
     }
   ],
